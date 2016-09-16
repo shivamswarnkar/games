@@ -19,7 +19,7 @@ body{
 }
 
 h1{
-	font-size: 16vh;
+	font-size: 10vw;
 	height: 16vh;
 	line-height: 12vh;
 }
@@ -34,7 +34,7 @@ a{
 .sec{
 	width: 100vw;
 	height: 27vh;
-	font-size: 10vh;
+	font-size: 10vw;
 	background-color: white;
 	opacity: 0.6;
 	margin-bottom:1vh;
@@ -50,17 +50,17 @@ a{
 }
 
 #rollerMadness{
-	background: url("rollerMadness.jpg") center center;
+	background: url("rollerMadness.JPG") center center;
 	background-size: contain;
 }
 
 #solarSystemSimulation{
-	background-image: url("solarSystemSimulation.jpg");
+	background-image: url("solarSystemSimulation.JPG");
 	background-size: contain;
 }
 
 #boxShooter{
-	background-image: url("solarSystemSimulation.jpg");
+	background-image: url("solarSystemSimulation.JPG");
 	background-size: contain;
 }
 
