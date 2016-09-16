@@ -1,0 +1,76 @@
+@font-face {
+font-family: Adam;
+src: url("ADAM.CG PRO.otf") format("opentype");
+}
+
+/*-----------------------------*/
+
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin:0px;
+
+}
+
+body{
+	font-family: Adam;
+	color: white;
+	background-color: black;
+}
+
+h1{
+	font-size: 10vw;
+	height: 16vh;
+	line-height: 12vh;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+.content{
+
+}
+
+.sec{
+	width: 100vw;
+	height: 27vh;
+	font-size: 10vw;
+	background-color: white;
+	opacity: 0.6;
+	margin-bottom:1vh;
+	line-height: 27vh;
+	text-align: center;
+	filter: blur(0.5px);
+
+}
+.sec:hover{
+	opacity: 1;
+	filter: blur(0px);
+
+}
+
+#rollerMadness{
+	background: url("rollerMadness.JPG") center center;
+	background-size: contain;
+}
+
+#solarSystemSimulation{
+	background-image: url("solarSystemSimulation.JPG");
+	background-size: contain;
+}
+
+#boxShooter{
+	background-image: url("solarSystemSimulation.JPG");
+	background-size: contain;
+}
+
+@media ( max-height: 500px ){
+	h1{
+		font-size: 8vw;
+	}
+	.sec{
+		height: 150px;
+	}
+
+
+}
