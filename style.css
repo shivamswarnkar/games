@@ -64,6 +64,13 @@ a{
 	background-size: contain;
 }
 
-@media ( 100vw <{
+@media ( max-height: 500px ){
+	h1{
+		font-size: 8vw;
+	}
+	.sec{
+		height: 150px;
+	}
+
 
 }
